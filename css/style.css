@@ -1,13 +1,17 @@
+
+
+
 body {
     margin: 0;
     padding: 0;
-
+    display:block;
 }
 
 #main{
     display: block;
     margin:auto 20px;
     background-color:#C0C0C0;
+    border-radius: 5px;
 }
 
 
@@ -20,15 +24,33 @@ body {
 
 
 
-#image-div{
+#img-div{
     display: block;
+    margin: 0 auto;
+    float:center;
     background-color:#ffff;
-    width: 100%;
+    width: 99%;
     height: 100%;
+    border-radius: 5px;
+    text-align: center;
 }
 
 #image{
     display: block;
     margin: 0 auto;
     max-width: 80%;
+}
+
+
+#tribute-info{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+}
+
+#textss {
+    display: block;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
 }
