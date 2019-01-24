@@ -1,9 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#main {
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
 #image-div{
-    width: 400px;
-    height: 400px;
+    display: block;
+
 }
 
 #image{
     display: block;
-    max-width:100%;
+    margin: 0 auto;
+    max-width: 80%;
 }
