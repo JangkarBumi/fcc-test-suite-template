@@ -1,0 +1,9 @@
+#image-div{
+    width: 400px;
+    height: 400px;
+}
+
+#image{
+    display: block;
+    max-width:100%;
+}
